@@ -1,18 +1,18 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 
 export default function Home() {
-  const [test, setData] = useState(null);
+  // const [test, setData] = useState(null);
 
-  const testFetch = async () => {
-    try {
-      const response = await fetch(`http://192.168.137.221:5000`);
-      const data = await response.json();
-      setData(data);
-    } catch (error) {
-      console.log("Error fetching data:", error);
-    }
-  };
+  // const testFetch = async () => {
+  //   try {
+  //     const response = await fetch(`http://192.168.137.221:5000`);
+  //     const data = await response.json();
+  //     setData(data);
+  //   } catch (error) {
+  //     console.log("Error fetching data:", error);
+  //   }
+  // };
 
   return (
     <div className="w-[393px] h-[852px] text-center mx-auto border-2">
